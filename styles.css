@@ -1,0 +1,23 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid black;
+    
+    
+}
+.row {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+.cell {
+    display: table-cell;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+
