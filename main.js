@@ -6,9 +6,8 @@ let numberSquares;
 
 numberButton.addEventListener('click', () => {
     
-    changeSize();
+    clearGrid();
     
-    createGrid(numberSquares);
     
     
 
@@ -23,6 +22,15 @@ const changeSize = () => {
     }
     return numberSquares
 }
+
+const clearGrid = () => {
+    while(grid.firstChild){
+    grid.removeChild(grid.lastChild)
+    }
+    changeSize();
+    createGrid(numberSquares);
+}
+
 
 
 const createGrid = (numberSquares) => {
