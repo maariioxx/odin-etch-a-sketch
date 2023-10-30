@@ -1,23 +1,57 @@
+body {
+    background-color: #191919;
+    color: whitesmoke;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 100px
+}
 .grid {
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
     max-height: 550px;
-    border: 2px solid black;
-   
-    
+    border: 2px solid pink;   
 }
-.row {
-    
-    margin: 0;
-    padding: 0;
-    background-color: beige;
-}
+
 .cell {
     
-    background-color: beige;
+    background-color: #1A1A1A;
     margin: 0;
     padding: 0;
 }
 
+button {
+    width: 10%;
+    background-color: #1A1A1A;
+    color: pink;
+    border: 1px solid pink;
+    border-radius: 50px;
+    
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+    color: pink
+}
+#github-logo {
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
